@@ -115,7 +115,7 @@ string reduceInvoker(int arraySize) {
 int main(void) {
 	//Open file
 	std::ofstream myFile;
-	myFile.open("times.csv", std::ofstream::trunc);
+	myFile.open("times-cpu.csv", std::ofstream::trunc);
 	//Write headers
 	myFile << "Array Size,Elapsed Time,Block Size,Grid Size\n";
 

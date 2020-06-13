@@ -210,7 +210,7 @@ string arrayGen(int size) {
 int main(int argc, char* argv[]) {
 	//CALL FUNCTION
 	std::ofstream myFile;
-	myFile.open("times.csv", std::ofstream::trunc);
+	myFile.open("times-tiled.csv", std::ofstream::trunc);
 	myFile << "Array Size,Elapsed Time\n";
 
 	for (int i = BLOCK_SIZE; i <= 1 << 13; i <<= 1) {
